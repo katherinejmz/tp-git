@@ -1,1 +1,56 @@
-hello
+🧾 Rapport du travail en groupe Git
+
+Participants :
+
+Katherine Jimenez Bone
+
+Darius Courtade
+
+Solal Diedhiou
+
+
+Objectif :
+
+Mettre en pratique la gestion collaborative sur GitHub en travaillant à plusieurs sur un même fichier tout en évitant les conflits de fusion.
+
+
+Méthodologie :
+
+Création du dépôt GitHub
+Un dépôt commun nommé tp-git a été créé sur GitHub.
+
+⚙️ Étapes de réalisation
+1️⃣ Clonage du dépôt commun
+
+Chaque membre a cloné le même dépôt depuis GitHub :
+
+git clone https://github.com/katherinejmz/tp-git.git
+
+
+Puis chacun est entré dans le dossier du projet :
+
+cd tp-git
+
+2️⃣ Création d’une branche personnelle
+
+Chaque membre a créé et basculé sur sa propre branche :
+
+Katherine :
+git checkout -b katherine
+
+Darius :
+git checkout -b darius
+
+Solal :
+git checkout -b solal
+
+3️⃣ Modification du même script
+
+Chaque étudiant a modifié le même fichier, par exemple script.sh ou README.md, mais dans une partie différente du fichier afin d’éviter les conflits.
+
+Exemple de répartition :
+
+Étudiant	Partie modifiée
+Katherine	Début du rendu (jusqu'au point 3)
+Dariu       Milieu du rendu ()
+Solal	    Fin du rendu ()
